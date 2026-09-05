@@ -1,0 +1,406 @@
+{
+ "generated_at": "2026-09-05T11:18:37Z",
+ "shard_size": 200,
+ "snippet_chars": 800,
+ "flag_labels": {
+  "empty_text": "Text field is empty",
+  "tiny_text": "Text is suspiciously short",
+  "no_tamil": "No Tamil script in a Tamil-language source",
+  "no_url": "No source URL on the record",
+  "no_title": "No title on the record",
+  "raw_html": "Raw HTML stored instead of text",
+  "label_mismatch": "What was searched for and what was matched do not agree"
+ },
+ "sources": [
+  {
+   "name": "openalex_tamil_studies",
+   "label": "Openalex Tamil Studies",
+   "records": 2877,
+   "shards": 15,
+   "host": "",
+   "tamil": false,
+   "text_len": 1029,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "internet_archive_tamil_language",
+   "label": "Internet Archive Tamil Language",
+   "records": 1661,
+   "shards": 9,
+   "host": "archive.org",
+   "tamil": false,
+   "text_len": 67,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "art_institute_chicago_tamil",
+   "label": "Art Institute Chicago Tamil",
+   "records": 1400,
+   "shards": 7,
+   "host": "",
+   "tamil": false,
+   "text_len": 450,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "zenodo_tamil",
+   "label": "Zenodo Tamil",
+   "records": 1131,
+   "shards": 6,
+   "host": "",
+   "tamil": false,
+   "text_len": 887,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wikimedia_commons_tamil",
+   "label": "Wikimedia Commons Tamil",
+   "records": 921,
+   "shards": 5,
+   "host": "",
+   "tamil": false,
+   "text_len": 67,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "internet_archive_tamil_collections",
+   "label": "Internet Archive Tamil Collections",
+   "records": 900,
+   "shards": 5,
+   "host": "archive.org",
+   "tamil": false,
+   "text_len": 247,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "tamil_wikipedia_categories",
+   "label": "Tamil Wikipedia Categories",
+   "records": 556,
+   "shards": 3,
+   "host": "ta.wikipedia.org",
+   "tamil": true,
+   "text_len": 1538,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wikibooks",
+   "label": "Tamil Wikibooks",
+   "records": 500,
+   "shards": 3,
+   "host": "ta.wikibooks.org",
+   "tamil": true,
+   "text_len": 612,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wikinews",
+   "label": "Tamil Wikinews",
+   "records": 500,
+   "shards": 3,
+   "host": "ta.wikinews.org",
+   "tamil": true,
+   "text_len": 1343,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wikiquote",
+   "label": "Tamil Wikiquote",
+   "records": 500,
+   "shards": 3,
+   "host": "ta.wikiquote.org",
+   "tamil": true,
+   "text_len": 752,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wikisource_classics",
+   "label": "Tamil Wikisource Classics",
+   "records": 497,
+   "shards": 3,
+   "host": "ta.wikisource.org",
+   "tamil": true,
+   "text_len": 2977,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "internet_archive_tamil",
+   "label": "Internet Archive Tamil",
+   "records": 418,
+   "shards": 3,
+   "host": "archive.org",
+   "tamil": false,
+   "text_len": 631,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "tamil_wikipedia_texts",
+   "label": "Tamil Wikipedia Texts",
+   "records": 390,
+   "shards": 2,
+   "host": "ta.wikipedia.org",
+   "tamil": true,
+   "text_len": 1741,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "doaj_tamil",
+   "label": "DOAJ Tamil",
+   "records": 366,
+   "shards": 2,
+   "host": "",
+   "tamil": false,
+   "text_len": 1219,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wikipedia_tamil_categories",
+   "label": "Wikipedia Tamil Categories",
+   "records": 329,
+   "shards": 2,
+   "host": "en.wikipedia.org",
+   "tamil": false,
+   "text_len": 2703,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "arxiv_tamil_nlp",
+   "label": "arXiv Tamil NLP",
+   "records": 217,
+   "shards": 2,
+   "host": "",
+   "tamil": false,
+   "text_len": 1102,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wikipedia_tamil_multilingual",
+   "label": "Wikipedia Tamil Multilingual",
+   "records": 183,
+   "shards": 1,
+   "host": "hi.wikipedia.org",
+   "tamil": false,
+   "text_len": 2740,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "english_wikisource_tamil",
+   "label": "English Wikisource Tamil",
+   "records": 172,
+   "shards": 1,
+   "host": "en.wikisource.org",
+   "tamil": false,
+   "text_len": 13829,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "cleveland_museum_tamil",
+   "label": "Cleveland Museum Tamil",
+   "records": 158,
+   "shards": 1,
+   "host": "",
+   "tamil": false,
+   "text_len": 529,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wikivoyage_tamil_nadu",
+   "label": "Wikivoyage Tamil Nadu",
+   "records": 147,
+   "shards": 1,
+   "host": "en.wikivoyage.org",
+   "tamil": false,
+   "text_len": 2644,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wikisource_texts",
+   "label": "Tamil Wikisource Texts",
+   "records": 40,
+   "shards": 1,
+   "host": "ta.wikisource.org",
+   "tamil": true,
+   "text_len": 6997,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "project_madurai_texts",
+   "label": "Project Madurai Texts",
+   "records": 26,
+   "shards": 1,
+   "host": "www.projectmadurai.org",
+   "tamil": false,
+   "text_len": 5554,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wikipedia_tamil_articles",
+   "label": "Wikipedia Tamil Articles",
+   "records": 19,
+   "shards": 1,
+   "host": "en.wikipedia.org",
+   "tamil": false,
+   "text_len": 20649,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "ai4bharat_catalog",
+   "label": "AI4Bharat Catalog",
+   "records": 1,
+   "shards": 1,
+   "host": "raw.githubusercontent.com",
+   "tamil": false,
+   "text_len": 57477,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "mozilla_data_collective",
+   "label": "Mozilla Data Collective",
+   "records": 1,
+   "shards": 1,
+   "host": "mozilladatacollective.com",
+   "tamil": false,
+   "text_len": 290041,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "tamil_nlp_catalog",
+   "label": "Tamil NLP Catalog",
+   "records": 1,
+   "shards": 1,
+   "host": "raw.githubusercontent.com",
+   "tamil": false,
+   "text_len": 24290,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "overpass_tamil_heritage",
+   "label": "Overpass Tamil Heritage",
+   "records": 4963,
+   "shards": 25,
+   "host": "",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "project_madurai",
+   "label": "Project Madurai",
+   "records": 2959,
+   "shards": 15,
+   "host": "www.projectmadurai.org",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "crossref_tamil_studies",
+   "label": "Crossref Tamil Studies",
+   "records": 2850,
+   "shards": 15,
+   "host": "",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "openlibrary_tamil",
+   "label": "Openlibrary Tamil",
+   "records": 2805,
+   "shards": 15,
+   "host": "",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wikidata_tamil_works",
+   "label": "Wikidata Tamil Works",
+   "records": 600,
+   "shards": 3,
+   "host": "www.wikidata.org",
+   "tamil": true,
+   "text_len": 0,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "huggingface_tamil_datasets",
+   "label": "Huggingface Tamil Datasets",
+   "records": 511,
+   "shards": 3,
+   "host": "",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "wiktionary_tamil_etymology",
+   "label": "Wiktionary Tamil Etymology",
+   "records": 413,
+   "shards": 3,
+   "host": "en.wiktionary.org",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "met_museum_tamil",
+   "label": "Met Museum Tamil",
+   "records": 272,
+   "shards": 2,
+   "host": "www.metmuseum.org",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "internet_archive_tamil_fulltext",
+   "label": "Internet Archive Tamil Fulltext",
+   "records": 54,
+   "shards": 1,
+   "host": "archive.org",
+   "tamil": true,
+   "text_len": 0,
+   "last_run": "2026-09-05T10:43:03Z"
+  },
+  {
+   "name": "tamil_wikisource",
+   "label": "Tamil Wikisource",
+   "records": 50,
+   "shards": 1,
+   "host": "",
+   "tamil": true,
+   "text_len": 0,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wiktionary",
+   "label": "Tamil Wiktionary",
+   "records": 50,
+   "shards": 1,
+   "host": "ta.wiktionary.org",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "wikidata_tamil_entities",
+   "label": "Wikidata Tamil Entities",
+   "records": 7,
+   "shards": 1,
+   "host": "www.wikidata.org",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T04:41:13Z"
+  },
+  {
+   "name": "tamil_wikipedia_stats",
+   "label": "Tamil Wikipedia Stats",
+   "records": 1,
+   "shards": 1,
+   "host": "",
+   "tamil": false,
+   "text_len": 0,
+   "last_run": "2026-09-05T04:41:13Z"
+  }
+ ]
+}

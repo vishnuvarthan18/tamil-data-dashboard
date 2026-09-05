@@ -1,0 +1,6212 @@
+{
+ "generated_at": "2026-09-05T11:18:37Z",
+ "repo": "vishnuvarthan18/tamil-data-collector",
+ "latest_run": "2026-09-05T10:43:03Z",
+ "build_seconds": 8.9,
+ "totals": {
+  "records": 29446,
+  "sources": 39,
+  "sources_configured": 40,
+  "corpus_bytes": 82259634,
+  "repo_bytes": 1311728414,
+  "files": 776,
+  "runs": 44,
+  "text_chars": 40756866,
+  "flagged": 5124
+ },
+ "status_counts": {
+  "ok": 18,
+  "stale": 19,
+  "partial": 2,
+  "idle": 1
+ },
+ "autothrottle_enabled": true,
+ "logs_available": true,
+ "spiders": [
+  {
+   "name": "overpass_tamil_heritage",
+   "label": "Overpass Tamil Heritage",
+   "status": "partial",
+   "explanation": "Hit the 10-minute per-spider cap - more to collect next run",
+   "records": 4963,
+   "bytes": 2958487,
+   "delta": -810,
+   "last_file": "overpass_tamil_heritage_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 734.8,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 11,
+   "retries": 9,
+   "finish_reason": "closespider_timeout",
+   "status_counts": {
+    "200": 2,
+    "429": 4
+   },
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 4937,
+     "bytes": 2944297
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 5165,
+     "bytes": 3075257
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 4956,
+     "bytes": 2953922
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 5768,
+     "bytes": 3424422
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 5769,
+     "bytes": 3424882
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 4960,
+     "bytes": 2956047
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 4960,
+     "bytes": 2956047
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 4960,
+     "bytes": 2956047
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 86,
+     "bytes": 53112
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 4964,
+     "bytes": 2952207
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 4960,
+     "bytes": 2956047
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 86,
+     "bytes": 53112
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 4962,
+     "bytes": 2957771
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 5145,
+     "bytes": 3064352
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 5773,
+     "bytes": 3427885
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 4963,
+     "bytes": 2958487
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "area",
+    "feature_type",
+    "osm_type",
+    "osm_id",
+    "osm_url",
+    "name",
+    "name_en",
+    "name_ta",
+    "lat",
+    "lon",
+    "religion"
+   ],
+   "host": "",
+   "text_chars": 0,
+   "flag_counts": {
+    "no_title": 1628
+   },
+   "flagged": 1628,
+   "flagged_pct": 32.8,
+   "new_this_run": 0
+  },
+  {
+   "name": "project_madurai",
+   "label": "Project Madurai",
+   "status": "ok",
+   "explanation": "Collected 2,959 records",
+   "records": 2959,
+   "bytes": 545602,
+   "delta": 0,
+   "last_file": "project_madurai_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 27,
+   "duration_s": 1.3,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 2,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 2
+   },
+   "throttle": [
+    {
+     "domain": "www.projectmadurai.org",
+     "samples": 2,
+     "avg_delay_ms": 244,
+     "max_delay_ms": 318,
+     "final_delay_ms": 171,
+     "avg_latency_ms": 321
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:32:47Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-27T01:38:06Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 2941,
+     "bytes": 542317
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 2959,
+     "bytes": 545602
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 2959,
+     "bytes": 545602
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "title",
+    "url",
+    "page_url"
+   ],
+   "host": "www.projectmadurai.org",
+   "text_chars": 0,
+   "flag_counts": {
+    "no_title": 30
+   },
+   "flagged": 30,
+   "flagged_pct": 1.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "openalex_tamil_studies",
+   "label": "Openalex Tamil Studies",
+   "status": "ok",
+   "explanation": "Collected 2,877 records",
+   "records": 2877,
+   "bytes": 5440229,
+   "delta": 0,
+   "last_file": "openalex_tamil_studies_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 6.3,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 30,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 30
+   },
+   "throttle": [
+    {
+     "domain": "api.openalex.org",
+     "samples": 30,
+     "avg_delay_ms": 147,
+     "max_delay_ms": 314,
+     "final_delay_ms": 107,
+     "avg_latency_ms": 479
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 2872,
+     "bytes": 5421718
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 2872,
+     "bytes": 5424382
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 2872,
+     "bytes": 5424382
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 2872,
+     "bytes": 5431170
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 2873,
+     "bytes": 5426324
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 2873,
+     "bytes": 5426324
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 2875,
+     "bytes": 5428121
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 2875,
+     "bytes": 5428121
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 2876,
+     "bytes": 5429632
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 2876,
+     "bytes": 5429632
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 2876,
+     "bytes": 5429632
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 2876,
+     "bytes": 5424678
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 2876,
+     "bytes": 5424003
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 2876,
+     "bytes": 5428599
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 2876,
+     "bytes": 5428599
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 2877,
+     "bytes": 5428413
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 2877,
+     "bytes": 5440229
+    }
+   ],
+   "median_text_len": 1029,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "result_page",
+    "openalex_id",
+    "doi",
+    "title",
+    "publication_year",
+    "authors",
+    "journal",
+    "is_open_access",
+    "oa_url",
+    "cited_by_count"
+   ],
+   "host": "",
+   "text_chars": 3357035,
+   "flag_counts": {
+    "empty_text": 333,
+    "tiny_text": 42
+   },
+   "flagged": 375,
+   "flagged_pct": 13.0,
+   "new_this_run": 11
+  },
+  {
+   "name": "crossref_tamil_studies",
+   "label": "Crossref Tamil Studies",
+   "status": "ok",
+   "explanation": "Collected 2,850 records",
+   "records": 2850,
+   "bytes": 3294988,
+   "delta": 0,
+   "last_file": "crossref_tamil_studies_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 6.4,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 33,
+   "retries": 3,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 30,
+    "429": 3
+   },
+   "throttle": [
+    {
+     "domain": "api.crossref.org",
+     "samples": 33,
+     "avg_delay_ms": 128,
+     "max_delay_ms": 357,
+     "final_delay_ms": 118,
+     "avg_latency_ms": 369
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 2648,
+     "bytes": 3095875
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 2648,
+     "bytes": 3106666
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 2748,
+     "bytes": 3124735
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 2748,
+     "bytes": 3159718
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 2848,
+     "bytes": 3286503
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 2848,
+     "bytes": 3285081
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 2749,
+     "bytes": 3216766
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 2849,
+     "bytes": 3294239
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 2849,
+     "bytes": 3291629
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 2849,
+     "bytes": 3287627
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 2749,
+     "bytes": 3187010
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 2750,
+     "bytes": 3188319
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 2850,
+     "bytes": 3290851
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 2850,
+     "bytes": 3296399
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 2850,
+     "bytes": 3299637
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 2850,
+     "bytes": 3293460
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 2850,
+     "bytes": 3294988
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "result_offset",
+    "doi",
+    "doi_url",
+    "title",
+    "type",
+    "container_title",
+    "publisher",
+    "issued",
+    "authors",
+    "abstract"
+   ],
+   "host": "",
+   "text_chars": 1434016,
+   "flag_counts": {
+    "empty_text": 1559,
+    "no_title": 86
+   },
+   "flagged": 1559,
+   "flagged_pct": 54.7,
+   "new_this_run": 3
+  },
+  {
+   "name": "openlibrary_tamil",
+   "label": "Openlibrary Tamil",
+   "status": "ok",
+   "explanation": "Collected 2,805 records",
+   "records": 2805,
+   "bytes": 1933512,
+   "delta": 0,
+   "last_file": "openlibrary_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 9.0,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 33,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 33
+   },
+   "throttle": [
+    {
+     "domain": "openlibrary.org",
+     "samples": 33,
+     "avg_delay_ms": 259,
+     "max_delay_ms": 652,
+     "final_delay_ms": 606,
+     "avg_latency_ms": 948
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 2805,
+     "bytes": 1932858
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 2805,
+     "bytes": 1932858
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 2805,
+     "bytes": 1932742
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 2805,
+     "bytes": 1932863
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 2805,
+     "bytes": 1932967
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 2805,
+     "bytes": 1932970
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 2805,
+     "bytes": 1932976
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 2805,
+     "bytes": 1933372
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 2805,
+     "bytes": 1933390
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 2805,
+     "bytes": 1933387
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 2805,
+     "bytes": 1933387
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 2805,
+     "bytes": 1933387
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 2805,
+     "bytes": 1933387
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 2805,
+     "bytes": 1933387
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 2805,
+     "bytes": 1933387
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 2805,
+     "bytes": 1933399
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 2805,
+     "bytes": 1933512
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "result_page",
+    "work_key",
+    "work_url",
+    "title",
+    "authors",
+    "first_publish_year",
+    "language",
+    "subjects",
+    "publishers",
+    "isbn"
+   ],
+   "host": "",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "internet_archive_tamil_language",
+   "label": "Internet Archive Tamil Language",
+   "status": "ok",
+   "explanation": "Collected 1,661 records",
+   "records": 1661,
+   "bytes": 2369603,
+   "delta": 0,
+   "last_file": "internet_archive_tamil_language_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 10.8,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 20,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 20
+   },
+   "throttle": [
+    {
+     "domain": "archive.org",
+     "samples": 20,
+     "avg_delay_ms": 516,
+     "max_delay_ms": 1733,
+     "final_delay_ms": 1733,
+     "avg_latency_ms": 1943
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 1661,
+     "bytes": 2368624
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 1661,
+     "bytes": 2368691
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 1661,
+     "bytes": 2368803
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 1661,
+     "bytes": 2368738
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 1661,
+     "bytes": 2368803
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 1661,
+     "bytes": 2368779
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 1661,
+     "bytes": 2369384
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 1661,
+     "bytes": 2369384
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 1661,
+     "bytes": 2368861
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 1661,
+     "bytes": 2368968
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 1661,
+     "bytes": 2369603
+    }
+   ],
+   "median_text_len": 67,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "requested_mediatype",
+    "result_page",
+    "identifier",
+    "title",
+    "description",
+    "date",
+    "creator",
+    "mediatype",
+    "language",
+    "collection",
+    "subject"
+   ],
+   "host": "archive.org",
+   "text_chars": 563941,
+   "flag_counts": {
+    "empty_text": 61
+   },
+   "flagged": 61,
+   "flagged_pct": 3.7,
+   "new_this_run": 0
+  },
+  {
+   "name": "art_institute_chicago_tamil",
+   "label": "Art Institute Chicago Tamil",
+   "status": "ok",
+   "explanation": "Collected 1,400 records",
+   "records": 1400,
+   "bytes": 2263011,
+   "delta": 0,
+   "last_file": "art_institute_chicago_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 3.0,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 14,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 14
+   },
+   "throttle": [
+    {
+     "domain": "api.artic.edu",
+     "samples": 14,
+     "avg_delay_ms": 125,
+     "max_delay_ms": 321,
+     "final_delay_ms": 100,
+     "avg_latency_ms": 296
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 1400,
+     "bytes": 2262962
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 1400,
+     "bytes": 2265734
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 1400,
+     "bytes": 2265734
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 1400,
+     "bytes": 2265682
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 1400,
+     "bytes": 2262404
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 1400,
+     "bytes": 2264837
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 1400,
+     "bytes": 2262404
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 1400,
+     "bytes": 2263734
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 1400,
+     "bytes": 2261333
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 1400,
+     "bytes": 2263734
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 1400,
+     "bytes": 2263769
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 1400,
+     "bytes": 2262872
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 1400,
+     "bytes": 2263769
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 1400,
+     "bytes": 2263769
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 1400,
+     "bytes": 2263769
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 1400,
+     "bytes": 2263369
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 1400,
+     "bytes": 2263011
+    }
+   ],
+   "median_text_len": 450,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "result_page",
+    "artwork_id",
+    "artwork_url",
+    "title",
+    "place_of_origin",
+    "date_display",
+    "artist_display",
+    "medium",
+    "dimensions",
+    "department"
+   ],
+   "host": "",
+   "text_chars": 736216,
+   "flag_counts": {
+    "empty_text": 646
+   },
+   "flagged": 646,
+   "flagged_pct": 46.1,
+   "new_this_run": 1
+  },
+  {
+   "name": "zenodo_tamil",
+   "label": "Zenodo Tamil",
+   "status": "ok",
+   "explanation": "Collected 1,131 records",
+   "records": 1131,
+   "bytes": 2129634,
+   "delta": 0,
+   "last_file": "zenodo_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 118.9,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 48,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 48
+   },
+   "throttle": [
+    {
+     "domain": "zenodo.org",
+     "samples": 48,
+     "avg_delay_ms": 2000,
+     "max_delay_ms": 2000,
+     "final_delay_ms": 2000,
+     "avg_latency_ms": 1118
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 1128,
+     "bytes": 2131854
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 1128,
+     "bytes": 2126402
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 1128,
+     "bytes": 2133984
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 1128,
+     "bytes": 2129010
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 1128,
+     "bytes": 2125920
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 1128,
+     "bytes": 2144261
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 1128,
+     "bytes": 2131247
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 1128,
+     "bytes": 2129167
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 1128,
+     "bytes": 2133524
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 1129,
+     "bytes": 2133235
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 1125,
+     "bytes": 2121785
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 1129,
+     "bytes": 2147872
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 1129,
+     "bytes": 2128637
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 1129,
+     "bytes": 2134600
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 1131,
+     "bytes": 2132186
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 1131,
+     "bytes": 2136687
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 1131,
+     "bytes": 2129634
+    }
+   ],
+   "median_text_len": 887,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "result_page",
+    "record_id",
+    "record_url",
+    "doi",
+    "title",
+    "description",
+    "publication_date",
+    "resource_type",
+    "creators",
+    "keywords"
+   ],
+   "host": "",
+   "text_chars": 1322581,
+   "flag_counts": {
+    "raw_html": 12,
+    "empty_text": 17,
+    "tiny_text": 24
+   },
+   "flagged": 53,
+   "flagged_pct": 4.7,
+   "new_this_run": 9
+  },
+  {
+   "name": "wikimedia_commons_tamil",
+   "label": "Wikimedia Commons Tamil",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 921 records on 2026-09-05",
+   "records": 921,
+   "bytes": 925878,
+   "delta": 0,
+   "last_file": "wikimedia_commons_tamil_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 906,
+     "bytes": 912480
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 906,
+     "bytes": 912480
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 906,
+     "bytes": 912480
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 906,
+     "bytes": 912480
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 906,
+     "bytes": 912480
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 921,
+     "bytes": 926637
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 921,
+     "bytes": 926637
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 922,
+     "bytes": 927248
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 924,
+     "bytes": 928708
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 921,
+     "bytes": 925869
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 921,
+     "bytes": 925869
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 921,
+     "bytes": 925869
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 921,
+     "bytes": 925869
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 922,
+     "bytes": 926787
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 921,
+     "bytes": 925878
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 921,
+     "bytes": 925878
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 921,
+     "bytes": 925878
+    }
+   ],
+   "median_text_len": 67,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "category",
+    "title",
+    "file_url",
+    "description_url",
+    "description",
+    "date",
+    "artist",
+    "license",
+    "usage_terms"
+   ],
+   "host": "",
+   "text_chars": 218009,
+   "flag_counts": {
+    "raw_html": 9,
+    "empty_text": 13
+   },
+   "flagged": 22,
+   "flagged_pct": 2.4,
+   "new_this_run": 0
+  },
+  {
+   "name": "internet_archive_tamil_collections",
+   "label": "Internet Archive Tamil Collections",
+   "status": "ok",
+   "explanation": "Collected 900 records",
+   "records": 900,
+   "bytes": 867418,
+   "delta": 0,
+   "last_file": "internet_archive_tamil_collections_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 8.4,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 9,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 9
+   },
+   "throttle": [
+    {
+     "domain": "archive.org",
+     "samples": 9,
+     "avg_delay_ms": 690,
+     "max_delay_ms": 1227,
+     "final_delay_ms": 1227,
+     "avg_latency_ms": 2671
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 900,
+     "bytes": 870129
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 900,
+     "bytes": 887757
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 900,
+     "bytes": 869481
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 900,
+     "bytes": 887919
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 900,
+     "bytes": 872719
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 900,
+     "bytes": 865985
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 900,
+     "bytes": 859507
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 900,
+     "bytes": 866865
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 900,
+     "bytes": 879516
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 900,
+     "bytes": 883059
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 900,
+     "bytes": 870952
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 900,
+     "bytes": 895053
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 900,
+     "bytes": 855598
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 900,
+     "bytes": 892550
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 900,
+     "bytes": 862327
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 900,
+     "bytes": 822219
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 900,
+     "bytes": 867418
+    }
+   ],
+   "median_text_len": 247,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "collection",
+    "result_page",
+    "identifier",
+    "title",
+    "description",
+    "date",
+    "year",
+    "creator",
+    "publisher",
+    "mediatype",
+    "language"
+   ],
+   "host": "archive.org",
+   "text_chars": 328542,
+   "flag_counts": {
+    "empty_text": 348,
+    "tiny_text": 18
+   },
+   "flagged": 366,
+   "flagged_pct": 40.7,
+   "new_this_run": 0
+  },
+  {
+   "name": "wikidata_tamil_works",
+   "label": "Wikidata Tamil Works",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 600 records on 2026-09-05",
+   "records": 600,
+   "bytes": 191555,
+   "delta": -400,
+   "last_file": "wikidata_tamil_works_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 600,
+     "bytes": 193890
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 1000,
+     "bytes": 321527
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 1000,
+     "bytes": 321343
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 600,
+     "bytes": 190963
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 200,
+     "bytes": 60273
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 600,
+     "bytes": 193890
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 600,
+     "bytes": 190396
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 1000,
+     "bytes": 322254
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 600,
+     "bytes": 190022
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 600,
+     "bytes": 191460
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 600,
+     "bytes": 191591
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 600,
+     "bytes": 192907
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 1000,
+     "bytes": 323233
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 600,
+     "bytes": 191112
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 1000,
+     "bytes": 321195
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 1000,
+     "bytes": 320637
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 600,
+     "bytes": 191555
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "requested_work_type",
+    "entity_id",
+    "wikidata_url",
+    "title",
+    "language_label",
+    "instance_of",
+    "author",
+    "publication_date"
+   ],
+   "host": "www.wikidata.org",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikipedia_categories",
+   "label": "Tamil Wikipedia Categories",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 556 records on 2026-09-05",
+   "records": 556,
+   "bytes": 4374173,
+   "delta": 556,
+   "last_file": "tamil_wikipedia_categories_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 935,
+     "bytes": 8063957
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 397,
+     "bytes": 3330719
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 375,
+     "bytes": 2856410
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 429,
+     "bytes": 3912624
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 513,
+     "bytes": 4515963
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 483,
+     "bytes": 4406949
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 718,
+     "bytes": 5683253
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 434,
+     "bytes": 3727126
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 687,
+     "bytes": 6324615
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 556,
+     "bytes": 4374173
+    }
+   ],
+   "median_text_len": 1538,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "category",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "ta.wikipedia.org",
+   "text_chars": 1556497,
+   "flag_counts": {
+    "empty_text": 12
+   },
+   "flagged": 12,
+   "flagged_pct": 2.2,
+   "new_this_run": 0,
+   "coverage": {
+    "label": "Seed categories with articles collected",
+    "done": 13,
+    "total": 13,
+    "pct": 100.0,
+    "note": "35 distinct categories seen, including sub-categories discovered while crawling"
+   }
+  },
+  {
+   "name": "huggingface_tamil_datasets",
+   "label": "Huggingface Tamil Datasets",
+   "status": "ok",
+   "explanation": "Collected 511 records",
+   "records": 511,
+   "bytes": 570918,
+   "delta": 0,
+   "last_file": "huggingface_tamil_datasets_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 2.0,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 11,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 11
+   },
+   "throttle": [
+    {
+     "domain": "huggingface.co",
+     "samples": 11,
+     "avg_delay_ms": 118,
+     "max_delay_ms": 262,
+     "final_delay_ms": 100,
+     "avg_latency_ms": 56
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 509,
+     "bytes": 464462
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 511,
+     "bytes": 471148
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 511,
+     "bytes": 479497
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 511,
+     "bytes": 479870
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 511,
+     "bytes": 483422
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 511,
+     "bytes": 483207
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 511,
+     "bytes": 485194
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 511,
+     "bytes": 480129
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 511,
+     "bytes": 469106
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 511,
+     "bytes": 468836
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 511,
+     "bytes": 468584
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 511,
+     "bytes": 471476
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 511,
+     "bytes": 458881
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 511,
+     "bytes": 461521
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 511,
+     "bytes": 463711
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 511,
+     "bytes": 467837
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 511,
+     "bytes": 570918
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_term",
+    "repo_type",
+    "repo_id",
+    "repo_url",
+    "author",
+    "last_modified",
+    "downloads",
+    "likes",
+    "tags",
+    "languages",
+    "license"
+   ],
+   "host": "",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikibooks",
+   "label": "Tamil Wikibooks",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 500 records on 2026-09-05",
+   "records": 500,
+   "bytes": 2351047,
+   "delta": 0,
+   "last_file": "tamil_wikibooks_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 500,
+     "bytes": 2351033
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 500,
+     "bytes": 2351047
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 500,
+     "bytes": 2351047
+    }
+   ],
+   "median_text_len": 612,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "start_letter",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "ta.wikibooks.org",
+   "text_chars": 814649,
+   "flag_counts": {
+    "empty_text": 88,
+    "tiny_text": 21,
+    "no_tamil": 1
+   },
+   "flagged": 109,
+   "flagged_pct": 21.8,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikinews",
+   "label": "Tamil Wikinews",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 500 records on 2026-09-05",
+   "records": 500,
+   "bytes": 2065760,
+   "delta": 0,
+   "last_file": "tamil_wikinews_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 500,
+     "bytes": 2065760
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 500,
+     "bytes": 2065760
+    }
+   ],
+   "median_text_len": 1343,
+   "tamil_ratio": 0.919,
+   "fields": [
+    "source",
+    "start_letter",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "ta.wikinews.org",
+   "text_chars": 637813,
+   "flag_counts": {
+    "empty_text": 92
+   },
+   "flagged": 92,
+   "flagged_pct": 18.4,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikiquote",
+   "label": "Tamil Wikiquote",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 500 records on 2026-09-05",
+   "records": 500,
+   "bytes": 3733509,
+   "delta": 0,
+   "last_file": "tamil_wikiquote_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 500,
+     "bytes": 3733435
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 400,
+     "bytes": 3313492
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 500,
+     "bytes": 3733509
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 500,
+     "bytes": 3733509
+    }
+   ],
+   "median_text_len": 752,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "start_letter",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "ta.wikiquote.org",
+   "text_chars": 1327330,
+   "flag_counts": {
+    "empty_text": 74
+   },
+   "flagged": 74,
+   "flagged_pct": 14.8,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikisource_classics",
+   "label": "Tamil Wikisource Classics",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 497 records on 2026-09-05",
+   "records": 497,
+   "bytes": 8922786,
+   "delta": 150,
+   "last_file": "tamil_wikisource_classics_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 345,
+     "bytes": 5744489
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 292,
+     "bytes": 5420164
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 285,
+     "bytes": 6309401
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 260,
+     "bytes": 5076375
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 445,
+     "bytes": 8596681
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 340,
+     "bytes": 5774279
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 344,
+     "bytes": 5786755
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 336,
+     "bytes": 6144918
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 392,
+     "bytes": 6457952
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 335,
+     "bytes": 6539209
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 332,
+     "bytes": 5597044
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 362,
+     "bytes": 6616778
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 307,
+     "bytes": 6369489
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 328,
+     "bytes": 5621740
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 340,
+     "bytes": 6236067
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 347,
+     "bytes": 5754709
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 497,
+     "bytes": 8922786
+    }
+   ],
+   "median_text_len": 2977,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "work",
+    "title",
+    "page_url",
+    "text",
+    "api_error"
+   ],
+   "host": "ta.wikisource.org",
+   "text_chars": 3368888,
+   "flag_counts": {
+    "tiny_text": 2
+   },
+   "flagged": 2,
+   "flagged_pct": 0.4,
+   "new_this_run": 0
+  },
+  {
+   "name": "internet_archive_tamil",
+   "label": "Internet Archive Tamil",
+   "status": "ok",
+   "explanation": "Collected 418 records",
+   "records": 418,
+   "bytes": 8860972,
+   "delta": 0,
+   "last_file": "internet_archive_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 7.1,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 9,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 9
+   },
+   "throttle": [
+    {
+     "domain": "archive.org",
+     "samples": 9,
+     "avg_delay_ms": 353,
+     "max_delay_ms": 1169,
+     "final_delay_ms": 1169,
+     "avg_latency_ms": 1216
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 418,
+     "bytes": 8268606
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 418,
+     "bytes": 8247178
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 418,
+     "bytes": 7679961
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 418,
+     "bytes": 8830100
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 418,
+     "bytes": 8473458
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 418,
+     "bytes": 8057323
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 418,
+     "bytes": 8419632
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 418,
+     "bytes": 8229903
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 418,
+     "bytes": 7333969
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 418,
+     "bytes": 8577712
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 418,
+     "bytes": 9433027
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 418,
+     "bytes": 8231152
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 418,
+     "bytes": 8567500
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 418,
+     "bytes": 8464360
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 418,
+     "bytes": 9641281
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 418,
+     "bytes": 9977965
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 418,
+     "bytes": 8860972
+    }
+   ],
+   "median_text_len": 631,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "identifier",
+    "title",
+    "description",
+    "date",
+    "creator",
+    "mediatype",
+    "language",
+    "item_url",
+    "metadata_api_url"
+   ],
+   "host": "archive.org",
+   "text_chars": 7489805,
+   "flag_counts": {
+    "empty_text": 24,
+    "tiny_text": 18
+   },
+   "flagged": 42,
+   "flagged_pct": 10.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "wiktionary_tamil_etymology",
+   "label": "Wiktionary Tamil Etymology",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 413 records on 2026-09-05",
+   "records": 413,
+   "bytes": 491799,
+   "delta": -170,
+   "last_file": "wiktionary_tamil_etymology_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 729,
+     "bytes": 855588
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 670,
+     "bytes": 802657
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 707,
+     "bytes": 835652
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 659,
+     "bytes": 787520
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 717,
+     "bytes": 844840
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 350,
+     "bytes": 361870
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 595,
+     "bytes": 683366
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 583,
+     "bytes": 661116
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 413,
+     "bytes": 491799
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "category",
+    "headword",
+    "page_url",
+    "entry",
+    "missing"
+   ],
+   "host": "en.wiktionary.org",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikipedia_texts",
+   "label": "Tamil Wikipedia Texts",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 390 records on 2026-09-05",
+   "records": 390,
+   "bytes": 4491001,
+   "delta": 17,
+   "last_file": "tamil_wikipedia_texts_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 185,
+     "bytes": 1872751
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 357,
+     "bytes": 4166461
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 223,
+     "bytes": 2243121
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 374,
+     "bytes": 4385078
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 380,
+     "bytes": 4419884
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 381,
+     "bytes": 4439600
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 376,
+     "bytes": 4440139
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 221,
+     "bytes": 2345134
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 390,
+     "bytes": 4511714
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 233,
+     "bytes": 2904939
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 371,
+     "bytes": 4235141
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 390,
+     "bytes": 4490936
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 164,
+     "bytes": 1323813
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 364,
+     "bytes": 3832268
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 201,
+     "bytes": 1898976
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 373,
+     "bytes": 4301608
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 390,
+     "bytes": 4491001
+    }
+   ],
+   "median_text_len": 1741,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "search_topic",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "ta.wikipedia.org",
+   "text_chars": 1633652,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "doaj_tamil",
+   "label": "DOAJ Tamil",
+   "status": "ok",
+   "explanation": "Collected 366 records",
+   "records": 366,
+   "bytes": 742443,
+   "delta": 0,
+   "last_file": "doaj_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 41.7,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 20,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 20
+   },
+   "throttle": [
+    {
+     "domain": "doaj.org",
+     "samples": 20,
+     "avg_delay_ms": 995,
+     "max_delay_ms": 1168,
+     "final_delay_ms": 1129,
+     "avg_latency_ms": 3893
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 365,
+     "bytes": 738421
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 365,
+     "bytes": 739652
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 365,
+     "bytes": 740761
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 366,
+     "bytes": 742443
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 366,
+     "bytes": 742443
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 366,
+     "bytes": 742443
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 366,
+     "bytes": 742443
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 366,
+     "bytes": 742443
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 366,
+     "bytes": 742443
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 366,
+     "bytes": 742443
+    }
+   ],
+   "median_text_len": 1219,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "result_page",
+    "doaj_id",
+    "title",
+    "abstract",
+    "year",
+    "authors",
+    "keywords",
+    "journal_title",
+    "journal_language",
+    "publisher"
+   ],
+   "host": "",
+   "text_chars": 452099,
+   "flag_counts": {
+    "empty_text": 6,
+    "raw_html": 1
+   },
+   "flagged": 7,
+   "flagged_pct": 1.9,
+   "new_this_run": 0
+  },
+  {
+   "name": "wikipedia_tamil_categories",
+   "label": "Wikipedia Tamil Categories",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 329 records on 2026-09-05",
+   "records": 329,
+   "bytes": 1725097,
+   "delta": -4,
+   "last_file": "wikipedia_tamil_categories_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 23,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 385,
+     "bytes": 2061378
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 385,
+     "bytes": 2062352
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 385,
+     "bytes": 2062352
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 385,
+     "bytes": 2062352
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 385,
+     "bytes": 2062352
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 385,
+     "bytes": 2062352
+    },
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 306,
+     "bytes": 1623493
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 364,
+     "bytes": 2004078
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 382,
+     "bytes": 2046563
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 366,
+     "bytes": 1930536
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 368,
+     "bytes": 2014644
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 366,
+     "bytes": 1931450
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 366,
+     "bytes": 1931563
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 383,
+     "bytes": 2057192
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 318,
+     "bytes": 1588171
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 361,
+     "bytes": 1974809
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 270,
+     "bytes": 1359799
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 385,
+     "bytes": 2063398
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 385,
+     "bytes": 2063562
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 364,
+     "bytes": 1924887
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 322,
+     "bytes": 1789823
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 333,
+     "bytes": 1660781
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 329,
+     "bytes": 1725097
+    }
+   ],
+   "median_text_len": 2703,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "category",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "en.wikipedia.org",
+   "text_chars": 1622199,
+   "flag_counts": {
+    "empty_text": 1
+   },
+   "flagged": 1,
+   "flagged_pct": 0.3,
+   "new_this_run": 0,
+   "coverage": {
+    "label": "Seed categories with articles collected",
+    "done": 12,
+    "total": 15,
+    "pct": 80.0,
+    "note": "12 distinct categories seen, including sub-categories discovered while crawling"
+   }
+  },
+  {
+   "name": "met_museum_tamil",
+   "label": "Met Museum Tamil",
+   "status": "ok",
+   "explanation": "Collected 272 records",
+   "records": 272,
+   "bytes": 192204,
+   "delta": 0,
+   "last_file": "met_museum_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 342.4,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 283,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 280,
+    "404": 3
+   },
+   "throttle": [
+    {
+     "domain": "collectionapi.metmuseum.org",
+     "samples": 283,
+     "avg_delay_ms": 1003,
+     "max_delay_ms": 1816,
+     "final_delay_ms": 1000,
+     "avg_latency_ms": 128
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 272,
+     "bytes": 191997
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 272,
+     "bytes": 192102
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 272,
+     "bytes": 192029
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 272,
+     "bytes": 192029
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 272,
+     "bytes": 191997
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 272,
+     "bytes": 192204
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 272,
+     "bytes": 192204
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 272,
+     "bytes": 192204
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 272,
+     "bytes": 192204
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "object_id",
+    "object_url",
+    "title",
+    "culture",
+    "period",
+    "dynasty",
+    "object_date",
+    "object_name",
+    "medium",
+    "dimensions"
+   ],
+   "host": "www.metmuseum.org",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "arxiv_tamil_nlp",
+   "label": "arXiv Tamil NLP",
+   "status": "ok",
+   "explanation": "Collected 217 records",
+   "records": 217,
+   "bytes": 366680,
+   "delta": 0,
+   "last_file": "arxiv_tamil_nlp_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 50.5,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 10,
+   "retries": 1,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 9,
+    "429": 1
+   },
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 215,
+     "bytes": 361283
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 215,
+     "bytes": 362068
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 216,
+     "bytes": 364732
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 216,
+     "bytes": 364732
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 216,
+     "bytes": 364732
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 216,
+     "bytes": 364732
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 217,
+     "bytes": 366660
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 217,
+     "bytes": 366660
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 217,
+     "bytes": 366680
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 217,
+     "bytes": 366680
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 217,
+     "bytes": 366680
+    }
+   ],
+   "median_text_len": 1102,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "arxiv_url",
+    "title",
+    "published",
+    "updated",
+    "authors",
+    "categories",
+    "doi",
+    "comment",
+    "pdf_url",
+    "abstract"
+   ],
+   "host": "",
+   "text_chars": 246087,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "wikipedia_tamil_multilingual",
+   "label": "Wikipedia Tamil Multilingual",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 183 records on 2026-09-05",
+   "records": 183,
+   "bytes": 3024452,
+   "delta": 18,
+   "last_file": "wikipedia_tamil_multilingual_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 198,
+     "bytes": 3344790
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 180,
+     "bytes": 3126021
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 181,
+     "bytes": 3332892
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 181,
+     "bytes": 3125317
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 207,
+     "bytes": 3540171
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 180,
+     "bytes": 3265771
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 180,
+     "bytes": 3235680
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 180,
+     "bytes": 3227736
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 181,
+     "bytes": 3224939
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 182,
+     "bytes": 2994086
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 198,
+     "bytes": 3478781
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 186,
+     "bytes": 3030765
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 187,
+     "bytes": 3071626
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 184,
+     "bytes": 3256489
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 176,
+     "bytes": 3084676
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 165,
+     "bytes": 3060403
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 183,
+     "bytes": 3024452
+    }
+   ],
+   "median_text_len": 2740,
+   "tamil_ratio": 0.001,
+   "fields": [
+    "source",
+    "en_topic",
+    "lang",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "hi.wikipedia.org",
+   "text_chars": 1564163,
+   "flag_counts": {
+    "empty_text": 1,
+    "tiny_text": 2
+   },
+   "flagged": 3,
+   "flagged_pct": 1.6,
+   "new_this_run": 0
+  },
+  {
+   "name": "english_wikisource_tamil",
+   "label": "English Wikisource Tamil",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 172 records on 2026-09-05",
+   "records": 172,
+   "bytes": 9044065,
+   "delta": 172,
+   "last_file": "english_wikisource_tamil_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 86,
+     "bytes": 2740468
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 172,
+     "bytes": 8840546
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 106,
+     "bytes": 3384145
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 172,
+     "bytes": 8840680
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 172,
+     "bytes": 9046107
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 172,
+     "bytes": 9046135
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 172,
+     "bytes": 9043961
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 105,
+     "bytes": 3323638
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 172,
+     "bytes": 8838142
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 172,
+     "bytes": 9043569
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 117,
+     "bytes": 4380229
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 25,
+     "bytes": 2032753
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 56,
+     "bytes": 4408070
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 172,
+     "bytes": 9044065
+    }
+   ],
+   "median_text_len": 13829,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "title",
+    "page_url",
+    "text",
+    "api_error"
+   ],
+   "host": "en.wikisource.org",
+   "text_chars": 8817651,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "cleveland_museum_tamil",
+   "label": "Cleveland Museum Tamil",
+   "status": "ok",
+   "explanation": "Collected 158 records",
+   "records": 158,
+   "bytes": 225834,
+   "delta": 0,
+   "last_file": "cleveland_museum_tamil_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 3.3,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 8,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 8
+   },
+   "throttle": [
+    {
+     "domain": "openaccess-api.clevelandart.org",
+     "samples": 8,
+     "avg_delay_ms": 220,
+     "max_delay_ms": 469,
+     "final_delay_ms": 469,
+     "avg_latency_ms": 678
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 158,
+     "bytes": 225834
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 158,
+     "bytes": 225834
+    }
+   ],
+   "median_text_len": 529,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_query",
+    "artwork_id",
+    "accession_number",
+    "artwork_url",
+    "title",
+    "culture",
+    "creation_date",
+    "type",
+    "technique",
+    "department",
+    "description"
+   ],
+   "host": "",
+   "text_chars": 74348,
+   "flag_counts": {
+    "empty_text": 23
+   },
+   "flagged": 23,
+   "flagged_pct": 14.6,
+   "new_this_run": 0
+  },
+  {
+   "name": "wikivoyage_tamil_nadu",
+   "label": "Wikivoyage Tamil Nadu",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 147 records on 2026-09-05",
+   "records": 147,
+   "bytes": 907312,
+   "delta": 1,
+   "last_file": "wikivoyage_tamil_nadu_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 147,
+     "bytes": 907366
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 147,
+     "bytes": 907366
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 147,
+     "bytes": 907366
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 147,
+     "bytes": 907366
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 147,
+     "bytes": 907366
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 147,
+     "bytes": 907366
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 146,
+     "bytes": 906074
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 146,
+     "bytes": 906073
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 146,
+     "bytes": 906018
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 146,
+     "bytes": 906020
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 147,
+     "bytes": 907312
+    }
+   ],
+   "median_text_len": 2644,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "category",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "en.wikivoyage.org",
+   "text_chars": 860788,
+   "flag_counts": {
+    "empty_text": 2
+   },
+   "flagged": 2,
+   "flagged_pct": 1.4,
+   "new_this_run": 0
+  },
+  {
+   "name": "internet_archive_tamil_fulltext",
+   "label": "Internet Archive Tamil Fulltext",
+   "status": "partial",
+   "explanation": "Hit the 10-minute per-spider cap - more to collect next run",
+   "records": 54,
+   "bytes": 2320257,
+   "delta": 0,
+   "last_file": "internet_archive_tamil_fulltext_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 707.7,
+   "errors": 42,
+   "warnings": 0,
+   "requests": 307,
+   "retries": 53,
+   "finish_reason": "closespider_timeout",
+   "status_counts": {
+    "200": 148,
+    "302": 85
+   },
+   "throttle": [
+    {
+     "domain": "archive.org",
+     "samples": 233,
+     "avg_delay_ms": 585,
+     "max_delay_ms": 2186,
+     "final_delay_ms": 389,
+     "avg_latency_ms": 1229
+    }
+   ],
+   "error_excerpts": [
+    "2026-09-05 10:55:20 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://dn760108.eu.archive.org/0/items/cftri.kalki0000.96unse/cftri.kalki0000.96unse_djvu.txt> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.Conn…",
+    "2026-09-05 10:55:20 [scrapy.core.scraper] ERROR: Error downloading <GET https://dn760108.eu.archive.org/0/items/cftri.kalki0000.96unse/cftri.kalki0000.96unse_djvu.txt>",
+    "2026-09-05 10:56:13 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://dn760104.eu.archive.org/0/items/9-uttara-kandam/01%20Bala%20Kandam%20compressed_djvu.txt> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.Co…",
+    "2026-09-05 10:56:13 [scrapy.core.scraper] ERROR: Error downloading <GET https://dn760104.eu.archive.org/0/items/9-uttara-kandam/01%20Bala%20Kandam%20compressed_djvu.txt>"
+   ],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 99,
+     "bytes": 4441395
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 99,
+     "bytes": 4440286
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 100,
+     "bytes": 4492310
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 40,
+     "bytes": 1647683
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 46,
+     "bytes": 2053508
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 44,
+     "bytes": 1967586
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 61,
+     "bytes": 2553584
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 48,
+     "bytes": 1977420
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 54,
+     "bytes": 2184274
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 54,
+     "bytes": 2320257
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "identifier",
+    "title",
+    "item_url",
+    "creator",
+    "year",
+    "language",
+    "ocr_engine",
+    "ocr_module_version",
+    "fulltext_url",
+    "fulltext_bytes",
+    "excerpt_chars"
+   ],
+   "host": "archive.org",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 1
+  },
+  {
+   "name": "tamil_wikisource",
+   "label": "Tamil Wikisource",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 50 records on 2026-09-05",
+   "records": 50,
+   "bytes": 5912,
+   "delta": 0,
+   "last_file": "tamil_wikisource_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 27,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:32:47Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-27T01:38:06Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 50,
+     "bytes": 5912
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 50,
+     "bytes": 5912
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "pageid",
+    "title"
+   ],
+   "host": "",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wiktionary",
+   "label": "Tamil Wiktionary",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 50 records on 2026-09-05",
+   "records": 50,
+   "bytes": 52434,
+   "delta": 0,
+   "last_file": "tamil_wiktionary_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 17,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 50,
+     "bytes": 37543
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 17,
+     "bytes": 16487
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 17,
+     "bytes": 11864
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 17,
+     "bytes": 13943
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 17,
+     "bytes": 19498
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 17,
+     "bytes": 24553
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 50,
+     "bytes": 52930
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 50,
+     "bytes": 48957
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 50,
+     "bytes": 41714
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 50,
+     "bytes": 53174
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 50,
+     "bytes": 52434
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "start_letter",
+    "headword",
+    "page_url",
+    "definition",
+    "missing"
+   ],
+   "host": "ta.wiktionary.org",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikisource_texts",
+   "label": "Tamil Wikisource Texts",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 40 records on 2026-09-05",
+   "records": 40,
+   "bytes": 877588,
+   "delta": 0,
+   "last_file": "tamil_wikisource_texts_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 25,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 20,
+     "bytes": 319834
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 40,
+     "bytes": 25361
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 40,
+     "bytes": 35910
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 40,
+     "bytes": 147293
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 40,
+     "bytes": 16408
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 40,
+     "bytes": 16408
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 40,
+     "bytes": 246824
+    },
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 40,
+     "bytes": 764984
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 40,
+     "bytes": 2144786
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 40,
+     "bytes": 979383
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 40,
+     "bytes": 427574
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 40,
+     "bytes": 152952
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 40,
+     "bytes": 764984
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 40,
+     "bytes": 1211906
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 40,
+     "bytes": 597206
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 40,
+     "bytes": 417999
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 40,
+     "bytes": 906578
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 40,
+     "bytes": 2144786
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 40,
+     "bytes": 2144786
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 40,
+     "bytes": 597206
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 40,
+     "bytes": 417999
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 40,
+     "bytes": 1760242
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 40,
+     "bytes": 1554386
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 40,
+     "bytes": 877588
+    }
+   ],
+   "median_text_len": 6997,
+   "tamil_ratio": 1.0,
+   "fields": [
+    "source",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "ta.wikisource.org",
+   "text_chars": 316310,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "project_madurai_texts",
+   "label": "Project Madurai Texts",
+   "status": "ok",
+   "explanation": "Collected 26 records",
+   "records": 26,
+   "bytes": 3102360,
+   "delta": 0,
+   "last_file": "project_madurai_texts_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 25,
+   "duration_s": 50.8,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 29,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 28,
+    "404": 1
+   },
+   "throttle": [
+    {
+     "domain": "www.projectmadurai.org",
+     "samples": 29,
+     "avg_delay_ms": 1500,
+     "max_delay_ms": 1500,
+     "final_delay_ms": 1500,
+     "avg_latency_ms": 131
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 13,
+     "bytes": 933712
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 13,
+     "bytes": 933712
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 26,
+     "bytes": 3099594
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 26,
+     "bytes": 3102360
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 26,
+     "bytes": 3102360
+    }
+   ],
+   "median_text_len": 5554,
+   "tamil_ratio": 0.085,
+   "fields": [
+    "source",
+    "url",
+    "index_url",
+    "content_type",
+    "text",
+    "bytes"
+   ],
+   "host": "www.projectmadurai.org",
+   "text_chars": 1289116,
+   "flag_counts": {
+    "empty_text": 10
+   },
+   "flagged": 10,
+   "flagged_pct": 38.5,
+   "new_this_run": 0,
+   "coverage": {
+    "label": "Works downloaded from the Project Madurai index",
+    "done": 26,
+    "total": 2673,
+    "pct": 1.0,
+    "note": "Denominator is the distinct text links on pmworks.html"
+   }
+  },
+  {
+   "name": "wikipedia_tamil_articles",
+   "label": "Wikipedia Tamil Articles",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 19 records on 2026-09-05",
+   "records": 19,
+   "bytes": 362184,
+   "delta": 0,
+   "last_file": "wikipedia_tamil_articles_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 25,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 19,
+     "bytes": 362231
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 19,
+     "bytes": 362231
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 19,
+     "bytes": 362247
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 19,
+     "bytes": 362126
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 19,
+     "bytes": 362122
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 19,
+     "bytes": 362122
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 19,
+     "bytes": 362122
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 19,
+     "bytes": 362183
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 19,
+     "bytes": 362182
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 19,
+     "bytes": 362182
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 19,
+     "bytes": 362182
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 19,
+     "bytes": 362184
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 19,
+     "bytes": 362184
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 19,
+     "bytes": 362184
+    }
+   ],
+   "median_text_len": 20649,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "topic",
+    "title",
+    "page_url",
+    "extract",
+    "missing"
+   ],
+   "host": "en.wikipedia.org",
+   "text_chars": 353323,
+   "flag_counts": {
+    "empty_text": 6
+   },
+   "flagged": 6,
+   "flagged_pct": 31.6,
+   "new_this_run": 0
+  },
+  {
+   "name": "wikidata_tamil_entities",
+   "label": "Wikidata Tamil Entities",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 7 records on 2026-09-05",
+   "records": 7,
+   "bytes": 115417,
+   "delta": 0,
+   "last_file": "wikidata_tamil_entities_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 23,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 7,
+     "bytes": 137721
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 6,
+     "bytes": 90653
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 6,
+     "bytes": 104707
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 7,
+     "bytes": 115417
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 7,
+     "bytes": 115417
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "search_term",
+    "matched_label",
+    "matched_description",
+    "entity_id",
+    "wikidata_url",
+    "property_count",
+    "raw_claims"
+   ],
+   "host": "www.wikidata.org",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "ai4bharat_catalog",
+   "label": "AI4Bharat Catalog",
+   "status": "ok",
+   "explanation": "Collected 1 records",
+   "records": 1,
+   "bytes": 58666,
+   "delta": 0,
+   "last_file": "ai4bharat_catalog_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 27,
+   "duration_s": 0.7,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 2,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 1,
+    "404": 1
+   },
+   "throttle": [
+    {
+     "domain": "raw.githubusercontent.com",
+     "samples": 2,
+     "avg_delay_ms": 382,
+     "max_delay_ms": 500,
+     "final_delay_ms": 263,
+     "avg_latency_ms": 62
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:32:47Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-27T01:38:06Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 1,
+     "bytes": 58666
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 1,
+     "bytes": 58666
+    }
+   ],
+   "median_text_len": 57477,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "url",
+    "content"
+   ],
+   "host": "raw.githubusercontent.com",
+   "text_chars": 57477,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "mozilla_data_collective",
+   "label": "Mozilla Data Collective",
+   "status": "ok",
+   "explanation": "Collected 1 records",
+   "records": 1,
+   "bytes": 329742,
+   "delta": 0,
+   "last_file": "mozilla_data_collective_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 27,
+   "duration_s": 1.1,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 2,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 2
+   },
+   "throttle": [
+    {
+     "domain": "mozilladatacollective.com",
+     "samples": 2,
+     "avg_delay_ms": 250,
+     "max_delay_ms": 302,
+     "final_delay_ms": 198,
+     "avg_latency_ms": 396
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:32:47Z",
+     "records": 1,
+     "bytes": 324085
+    },
+    {
+     "ts": "2026-08-27T01:38:06Z",
+     "records": 1,
+     "bytes": 324085
+    },
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 1,
+     "bytes": 324086
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 1,
+     "bytes": 324085
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 1,
+     "bytes": 324086
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 1,
+     "bytes": 324088
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 1,
+     "bytes": 324087
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 1,
+     "bytes": 324087
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 1,
+     "bytes": 324085
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 1,
+     "bytes": 324086
+    },
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 1,
+     "bytes": 324085
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 1,
+     "bytes": 324421
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 1,
+     "bytes": 324421
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 1,
+     "bytes": 324470
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 1,
+     "bytes": 324420
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 1,
+     "bytes": 324471
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 1,
+     "bytes": 324389
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 1,
+     "bytes": 324389
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 1,
+     "bytes": 324389
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 1,
+     "bytes": 324467
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 1,
+     "bytes": 329715
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 1,
+     "bytes": 329715
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 1,
+     "bytes": 329716
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 1,
+     "bytes": 329734
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 1,
+     "bytes": 329741
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 1,
+     "bytes": 329741
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 1,
+     "bytes": 329742
+    }
+   ],
+   "median_text_len": 290041,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "url",
+    "title",
+    "content"
+   ],
+   "host": "mozilladatacollective.com",
+   "text_chars": 290041,
+   "flag_counts": {
+    "raw_html": 1
+   },
+   "flagged": 1,
+   "flagged_pct": 100.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_nlp_catalog",
+   "label": "Tamil NLP Catalog",
+   "status": "ok",
+   "explanation": "Collected 1 records",
+   "records": 1,
+   "bytes": 24870,
+   "delta": 0,
+   "last_file": "tamil_nlp_catalog_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 27,
+   "duration_s": 0.7,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 2,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 1,
+    "404": 1
+   },
+   "throttle": [
+    {
+     "domain": "raw.githubusercontent.com",
+     "samples": 2,
+     "avg_delay_ms": 384,
+     "max_delay_ms": 500,
+     "final_delay_ms": 268,
+     "avg_latency_ms": 83
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:32:47Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-27T01:38:06Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 1,
+     "bytes": 24870
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 1,
+     "bytes": 24870
+    }
+   ],
+   "median_text_len": 24290,
+   "tamil_ratio": 0.001,
+   "fields": [
+    "source",
+    "url",
+    "content"
+   ],
+   "host": "raw.githubusercontent.com",
+   "text_chars": 24290,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "tamil_wikipedia_stats",
+   "label": "Tamil Wikipedia Stats",
+   "status": "stale",
+   "explanation": "Did not run in the latest crawl - last collected 1 records on 2026-09-05",
+   "records": 1,
+   "bytes": 235,
+   "delta": 1,
+   "last_file": "tamil_wikipedia_stats_20260905T044113Z.jsonl",
+   "last_run": "2026-09-05T04:41:13Z",
+   "ran_this_run": false,
+   "runs_seen": 27,
+   "duration_s": null,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 0,
+   "retries": 0,
+   "finish_reason": null,
+   "status_counts": {},
+   "throttle": [],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-27T01:32:47Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-27T01:38:06Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-27T01:55:09Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-27T02:05:12Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-27T02:24:20Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-27T16:05:01Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-27T17:42:16Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-28T02:13:05Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-28T04:42:37Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-28T04:58:44Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-28T06:51:15Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-28T22:28:58Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-29T07:11:42Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-29T16:47:57Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-08-30T05:33:41Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-30T16:49:08Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T05:48:24Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-08-31T19:09:48Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-09-01T05:21:32Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-01T16:46:06Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-02T04:47:33Z",
+     "records": 1,
+     "bytes": 235
+    },
+    {
+     "ts": "2026-09-02T16:42:19Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-03T04:43:52Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-03T16:33:35Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-04T04:45:20Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-04T16:29:21Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-05T04:41:13Z",
+     "records": 1,
+     "bytes": 235
+    }
+   ],
+   "median_text_len": 0,
+   "tamil_ratio": 0.0,
+   "fields": [
+    "source",
+    "pages",
+    "articles",
+    "edits",
+    "images",
+    "users",
+    "activeusers",
+    "admins",
+    "jobs",
+    "cirrussearch-article-words",
+    "queued-massmessages"
+   ],
+   "host": "",
+   "text_chars": 0,
+   "flag_counts": {},
+   "flagged": 0,
+   "flagged_pct": 0.0,
+   "new_this_run": 0
+  },
+  {
+   "name": "thevaaram_thirumurai",
+   "label": "Thevaaram Thirumurai",
+   "status": "idle",
+   "explanation": "Ran without errors but produced no records",
+   "records": 0,
+   "bytes": 0,
+   "delta": -103,
+   "last_file": "thevaaram_thirumurai_20260905T104303Z.jsonl",
+   "last_run": "2026-09-05T10:43:03Z",
+   "ran_this_run": true,
+   "runs_seen": 17,
+   "duration_s": 2.4,
+   "errors": 0,
+   "warnings": 0,
+   "requests": 13,
+   "retries": 0,
+   "finish_reason": "finished",
+   "status_counts": {
+    "200": 13
+   },
+   "throttle": [
+    {
+     "domain": "thevaaram.org",
+     "samples": 13,
+     "avg_delay_ms": 121,
+     "max_delay_ms": 295,
+     "final_delay_ms": 100,
+     "avg_latency_ms": 208
+    }
+   ],
+   "error_excerpts": [],
+   "history": [
+    {
+     "ts": "2026-08-28T07:28:58Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-29T01:47:03Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-29T12:44:51Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-29T20:59:18Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-30T12:00:12Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-30T21:13:06Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-31T14:02:59Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-08-31T22:54:59Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-01T11:45:56Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-01T21:07:38Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-02T11:27:50Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-02T21:07:48Z",
+     "records": 0,
+     "bytes": 0
+    },
+    {
+     "ts": "2026-09-03T11:24:34Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-03T21:07:28Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-04T11:27:02Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-04T20:50:08Z",
+     "records": 103,
+     "bytes": 465593
+    },
+    {
+     "ts": "2026-09-05T10:43:03Z",
+     "records": 0,
+     "bytes": 0
+    }
+   ]
+  }
+ ],
+ "runs": [
+  {
+   "number": 4,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-27T02:04:56Z",
+   "duration_s": 101,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33032151520"
+  },
+  {
+   "number": 5,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-27T02:24:00Z",
+   "duration_s": 633,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33033160684"
+  },
+  {
+   "number": 6,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-27T16:04:42Z",
+   "duration_s": 649,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33091332298"
+  },
+  {
+   "number": 7,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-27T17:42:00Z",
+   "duration_s": 647,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33099735520"
+  },
+  {
+   "number": 8,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-28T02:12:52Z",
+   "duration_s": 650,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33135223468"
+  },
+  {
+   "number": 9,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-28T04:42:21Z",
+   "duration_s": 642,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33142578703"
+  },
+  {
+   "number": 10,
+   "status": "completed",
+   "conclusion": "cancelled",
+   "created_at": "2026-08-28T04:58:26Z",
+   "duration_s": 6555,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33143355350"
+  },
+  {
+   "number": 11,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-28T06:51:01Z",
+   "duration_s": 3752,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33149334173"
+  },
+  {
+   "number": 12,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-28T22:28:36Z",
+   "duration_s": 1818,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33216945926"
+  },
+  {
+   "number": 13,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-29T01:46:46Z",
+   "duration_s": 1544,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33227301515"
+  },
+  {
+   "number": 14,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-29T07:11:24Z",
+   "duration_s": 2209,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33240255404"
+  },
+  {
+   "number": 15,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-29T12:44:24Z",
+   "duration_s": 1505,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33253260802"
+  },
+  {
+   "number": 16,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-29T16:47:39Z",
+   "duration_s": 1817,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33263927899"
+  },
+  {
+   "number": 17,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-29T20:58:44Z",
+   "duration_s": 1571,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33274853837"
+  },
+  {
+   "number": 18,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-30T05:33:11Z",
+   "duration_s": 1976,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33294947559"
+  },
+  {
+   "number": 19,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-30T11:59:53Z",
+   "duration_s": 1013,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33310307122"
+  },
+  {
+   "number": 20,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-30T16:48:47Z",
+   "duration_s": 1757,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33323503632"
+  },
+  {
+   "number": 21,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-30T21:12:44Z",
+   "duration_s": 1371,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33335786202"
+  },
+  {
+   "number": 22,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-31T05:48:02Z",
+   "duration_s": 1744,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33361805175"
+  },
+  {
+   "number": 23,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-31T14:02:34Z",
+   "duration_s": 1635,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33400318641"
+  },
+  {
+   "number": 24,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-31T19:09:23Z",
+   "duration_s": 1952,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33428996914"
+  },
+  {
+   "number": 25,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-08-31T22:54:36Z",
+   "duration_s": 1525,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33448369130"
+  },
+  {
+   "number": 26,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-01T05:21:12Z",
+   "duration_s": 2155,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33473272527"
+  },
+  {
+   "number": 27,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-01T11:45:35Z",
+   "duration_s": 1881,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33504116614"
+  },
+  {
+   "number": 28,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-01T16:45:41Z",
+   "duration_s": 2007,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33533727600"
+  },
+  {
+   "number": 29,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-01T21:07:13Z",
+   "duration_s": 1521,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33559265884"
+  },
+  {
+   "number": 30,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-02T04:47:01Z",
+   "duration_s": 1853,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33592120930"
+  },
+  {
+   "number": 31,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-02T11:27:11Z",
+   "duration_s": 2623,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33624664663"
+  },
+  {
+   "number": 32,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-02T16:41:50Z",
+   "duration_s": 2105,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33656500863"
+  },
+  {
+   "number": 33,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-02T21:07:21Z",
+   "duration_s": 2078,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33683333057"
+  },
+  {
+   "number": 34,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-03T04:43:24Z",
+   "duration_s": 2008,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33716085925"
+  },
+  {
+   "number": 35,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-03T11:23:28Z",
+   "duration_s": 2281,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33749420161"
+  },
+  {
+   "number": 36,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-03T16:33:01Z",
+   "duration_s": 1903,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33779293512"
+  },
+  {
+   "number": 37,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-03T21:06:55Z",
+   "duration_s": 2083,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33806152375"
+  },
+  {
+   "number": 38,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-04T04:44:54Z",
+   "duration_s": 2042,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33837946399"
+  },
+  {
+   "number": 39,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-04T11:26:35Z",
+   "duration_s": 2058,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33867964131"
+  },
+  {
+   "number": 40,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-04T16:28:52Z",
+   "duration_s": 1681,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33895372180"
+  },
+  {
+   "number": 41,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-04T20:49:38Z",
+   "duration_s": 1517,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33918153232"
+  },
+  {
+   "number": 42,
+   "status": "completed",
+   "conclusion": "success",
+   "created_at": "2026-09-05T04:40:40Z",
+   "duration_s": 2248,
+   "url": "https://github.com/vishnuvarthan18/tamil-data-collector/actions/runs/33945202341"
+  }
+ ],
+ "flag_labels": {
+  "empty_text": "Text field is empty",
+  "tiny_text": "Text is suspiciously short",
+  "no_tamil": "No Tamil script in a Tamil-language source",
+  "no_url": "No source URL on the record",
+  "no_title": "No title on the record",
+  "raw_html": "Raw HTML stored instead of text",
+  "label_mismatch": "What was searched for and what was matched do not agree"
+ },
+ "cache": {
+  "files_reused": 755,
+  "files_counted": 21
+ }
+}

@@ -1,0 +1,354 @@
+[
+ {
+  "ts": "2026-08-27T01:32:47Z",
+  "records": 2944,
+  "corpus_bytes": 949938,
+  "repo_bytes": 949938,
+  "spiders_ran": 6,
+  "records_written": 2944
+ },
+ {
+  "ts": "2026-08-27T01:38:06Z",
+  "records": 2995,
+  "corpus_bytes": 956085,
+  "repo_bytes": 1906023,
+  "spiders_ran": 6,
+  "records_written": 2995
+ },
+ {
+  "ts": "2026-08-27T01:55:09Z",
+  "records": 3008,
+  "corpus_bytes": 1889798,
+  "repo_bytes": 3795821,
+  "spiders_ran": 9,
+  "records_written": 3008
+ },
+ {
+  "ts": "2026-08-27T02:05:12Z",
+  "records": 3047,
+  "corpus_bytes": 2571862,
+  "repo_bytes": 6367683,
+  "spiders_ran": 9,
+  "records_written": 3047
+ },
+ {
+  "ts": "2026-08-27T02:24:20Z",
+  "records": 3472,
+  "corpus_bytes": 6642371,
+  "repo_bytes": 13010054,
+  "spiders_ran": 11,
+  "records_written": 3472
+ },
+ {
+  "ts": "2026-08-27T16:05:01Z",
+  "records": 3472,
+  "corpus_bytes": 6631608,
+  "repo_bytes": 19641662,
+  "spiders_ran": 11,
+  "records_written": 3472
+ },
+ {
+  "ts": "2026-08-27T17:42:16Z",
+  "records": 3472,
+  "corpus_bytes": 6742990,
+  "repo_bytes": 26384652,
+  "spiders_ran": 11,
+  "records_written": 3472
+ },
+ {
+  "ts": "2026-08-28T02:13:05Z",
+  "records": 3472,
+  "corpus_bytes": 6612105,
+  "repo_bytes": 32996757,
+  "spiders_ran": 11,
+  "records_written": 3472
+ },
+ {
+  "ts": "2026-08-28T04:42:37Z",
+  "records": 3472,
+  "corpus_bytes": 6612103,
+  "repo_bytes": 39608860,
+  "spiders_ran": 11,
+  "records_written": 3472
+ },
+ {
+  "ts": "2026-08-28T04:58:44Z",
+  "records": 3472,
+  "corpus_bytes": 6842520,
+  "repo_bytes": 46451380,
+  "spiders_ran": 11,
+  "records_written": 3472
+ },
+ {
+  "ts": "2026-08-28T06:51:15Z",
+  "records": 9073,
+  "corpus_bytes": 39745136,
+  "repo_bytes": 82146983,
+  "spiders_ran": 19,
+  "records_written": 6103
+ },
+ {
+  "ts": "2026-08-28T07:28:58Z",
+  "records": 29564,
+  "corpus_bytes": 75981958,
+  "repo_bytes": 122433338,
+  "spiders_ran": 21,
+  "records_written": 23461
+ },
+ {
+  "ts": "2026-08-28T22:28:58Z",
+  "records": 28885,
+  "corpus_bytes": 79978964,
+  "repo_bytes": 162125947,
+  "spiders_ran": 19,
+  "records_written": 5424
+ },
+ {
+  "ts": "2026-08-29T01:47:03Z",
+  "records": 23950,
+  "corpus_bytes": 77049621,
+  "repo_bytes": 199482959,
+  "spiders_ran": 21,
+  "records_written": 18526
+ },
+ {
+  "ts": "2026-08-29T07:11:42Z",
+  "records": 24411,
+  "corpus_bytes": 69971469,
+  "repo_bytes": 232097416,
+  "spiders_ran": 19,
+  "records_written": 5885
+ },
+ {
+  "ts": "2026-08-29T12:44:51Z",
+  "records": 29676,
+  "corpus_bytes": 72495164,
+  "repo_bytes": 271978123,
+  "spiders_ran": 21,
+  "records_written": 23791
+ },
+ {
+  "ts": "2026-08-29T16:47:57Z",
+  "records": 28429,
+  "corpus_bytes": 74301620,
+  "repo_bytes": 306399036,
+  "spiders_ran": 19,
+  "records_written": 4638
+ },
+ {
+  "ts": "2026-08-29T20:59:18Z",
+  "records": 28238,
+  "corpus_bytes": 75392201,
+  "repo_bytes": 347370324,
+  "spiders_ran": 21,
+  "records_written": 23600
+ },
+ {
+  "ts": "2026-08-30T05:33:41Z",
+  "records": 28057,
+  "corpus_bytes": 79266296,
+  "repo_bytes": 385665332,
+  "spiders_ran": 19,
+  "records_written": 4457
+ },
+ {
+  "ts": "2026-08-30T12:00:12Z",
+  "records": 28970,
+  "corpus_bytes": 79484131,
+  "repo_bytes": 426854455,
+  "spiders_ran": 21,
+  "records_written": 24513
+ },
+ {
+  "ts": "2026-08-30T16:49:08Z",
+  "records": 29245,
+  "corpus_bytes": 76970347,
+  "repo_bytes": 462635679,
+  "spiders_ran": 19,
+  "records_written": 4732
+ },
+ {
+  "ts": "2026-08-30T21:13:06Z",
+  "records": 29245,
+  "corpus_bytes": 76516214,
+  "repo_bytes": 503370669,
+  "spiders_ran": 21,
+  "records_written": 24513
+ },
+ {
+  "ts": "2026-08-31T05:48:24Z",
+  "records": 29251,
+  "corpus_bytes": 77061356,
+  "repo_bytes": 539697035,
+  "spiders_ran": 19,
+  "records_written": 4738
+ },
+ {
+  "ts": "2026-08-31T14:02:59Z",
+  "records": 28346,
+  "corpus_bytes": 76919213,
+  "repo_bytes": 580289882,
+  "spiders_ran": 21,
+  "records_written": 23608
+ },
+ {
+  "ts": "2026-08-31T19:09:48Z",
+  "records": 28835,
+  "corpus_bytes": 69551804,
+  "repo_bytes": 609248839,
+  "spiders_ran": 19,
+  "records_written": 5227
+ },
+ {
+  "ts": "2026-08-31T22:54:59Z",
+  "records": 28935,
+  "corpus_bytes": 69441487,
+  "repo_bytes": 649731369,
+  "spiders_ran": 21,
+  "records_written": 23708
+ },
+ {
+  "ts": "2026-09-01T05:21:32Z",
+  "records": 29601,
+  "corpus_bytes": 76018421,
+  "repo_bytes": 685267260,
+  "spiders_ran": 19,
+  "records_written": 5893
+ },
+ {
+  "ts": "2026-09-01T11:45:56Z",
+  "records": 29602,
+  "corpus_bytes": 75076926,
+  "repo_bytes": 724808295,
+  "spiders_ran": 21,
+  "records_written": 23709
+ },
+ {
+  "ts": "2026-09-01T16:46:06Z",
+  "records": 28768,
+  "corpus_bytes": 78672053,
+  "repo_bytes": 763939313,
+  "spiders_ran": 19,
+  "records_written": 5059
+ },
+ {
+  "ts": "2026-09-01T21:07:38Z",
+  "records": 23793,
+  "corpus_bytes": 76601794,
+  "repo_bytes": 801410089,
+  "spiders_ran": 21,
+  "records_written": 18734
+ },
+ {
+  "ts": "2026-09-02T04:47:33Z",
+  "records": 24071,
+  "corpus_bytes": 74829235,
+  "repo_bytes": 838768548,
+  "spiders_ran": 19,
+  "records_written": 5337
+ },
+ {
+  "ts": "2026-09-02T11:27:50Z",
+  "records": 28889,
+  "corpus_bytes": 76087142,
+  "repo_bytes": 877497231,
+  "spiders_ran": 21,
+  "records_written": 23552
+ },
+ {
+  "ts": "2026-09-02T16:42:19Z",
+  "records": 28994,
+  "corpus_bytes": 77798797,
+  "repo_bytes": 916567345,
+  "spiders_ran": 19,
+  "records_written": 5442
+ },
+ {
+  "ts": "2026-09-02T21:07:48Z",
+  "records": 28898,
+  "corpus_bytes": 76589508,
+  "repo_bytes": 954086739,
+  "spiders_ran": 21,
+  "records_written": 23456
+ },
+ {
+  "ts": "2026-09-03T04:43:52Z",
+  "records": 29307,
+  "corpus_bytes": 67957042,
+  "repo_bytes": 984524387,
+  "spiders_ran": 19,
+  "records_written": 5851
+ },
+ {
+  "ts": "2026-09-03T11:24:34Z",
+  "records": 24635,
+  "corpus_bytes": 65804097,
+  "repo_bytes": 1019890836,
+  "spiders_ran": 21,
+  "records_written": 18784
+ },
+ {
+  "ts": "2026-09-03T16:33:35Z",
+  "records": 23764,
+  "corpus_bytes": 65889285,
+  "repo_bytes": 1050413672,
+  "spiders_ran": 19,
+  "records_written": 4980
+ },
+ {
+  "ts": "2026-09-03T21:07:28Z",
+  "records": 28657,
+  "corpus_bytes": 69332726,
+  "repo_bytes": 1089223562,
+  "spiders_ran": 21,
+  "records_written": 23677
+ },
+ {
+  "ts": "2026-09-04T04:45:20Z",
+  "records": 29681,
+  "corpus_bytes": 71374575,
+  "repo_bytes": 1121788247,
+  "spiders_ran": 19,
+  "records_written": 6004
+ },
+ {
+  "ts": "2026-09-04T11:27:02Z",
+  "records": 29853,
+  "corpus_bytes": 72054208,
+  "repo_bytes": 1161277770,
+  "spiders_ran": 21,
+  "records_written": 23849
+ },
+ {
+  "ts": "2026-09-04T16:29:21Z",
+  "records": 29383,
+  "corpus_bytes": 67322064,
+  "repo_bytes": 1189110311,
+  "spiders_ran": 19,
+  "records_written": 5534
+ },
+ {
+  "ts": "2026-09-04T20:50:08Z",
+  "records": 30018,
+  "corpus_bytes": 68191010,
+  "repo_bytes": 1229468780,
+  "spiders_ran": 21,
+  "records_written": 24484
+ },
+ {
+  "ts": "2026-09-05T04:41:13Z",
+  "records": 30359,
+  "corpus_bytes": 84020673,
+  "repo_bytes": 1273130984,
+  "spiders_ran": 19,
+  "records_written": 5875
+ },
+ {
+  "ts": "2026-09-05T10:43:03Z",
+  "records": 29446,
+  "corpus_bytes": 82259634,
+  "repo_bytes": 1311728414,
+  "spiders_ran": 21,
+  "records_written": 23571
+ }
+]

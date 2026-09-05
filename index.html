@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tamil Data Collector — status</title>
+<meta name="description" content="What the Tamil data crawler collected, whether it is healthy, and what the records actually look like.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>தமிழ்</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="head-in">
+    <div>
+      <h1>Tamil Data Collector</h1>
+      <div class="sub" id="updated">Loading…</div>
+    </div>
+    <div class="spacer"></div>
+    <button class="ghost" id="theme" type="button">Dark / light</button>
+  </div>
+  <nav id="tabs" role="tablist">
+    <button role="tab" data-tab="health" aria-selected="true">Engine health</button>
+    <button role="tab" data-tab="data" aria-selected="false">Data collected</button>
+    <button role="tab" data-tab="quality" aria-selected="false">Spot-checks</button>
+    <button role="tab" data-tab="browse" aria-selected="false">Browse records</button>
+  </nav>
+</header>
+
+<div class="wrap">
+  <div id="loading" class="empty">Loading the latest crawl…</div>
+  <div id="error" class="banner critical hidden">
+    <span class="icon">✕</span>
+    <div><strong>Could not load the dashboard data.</strong><p id="error-detail"></p></div>
+  </div>
+
+  <!-- 1. ENGINE HEALTH -->
+  <section id="tab-health" class="tab hidden">
+    <div id="banner" class="banner"><span class="icon"></span><div><strong id="banner-title"></strong><p id="banner-text"></p></div></div>
+    <div class="kpis" id="health-kpis"></div>
+
+    <div class="card">
+      <h2>Every source in the latest crawl</h2>
+      <p class="hint">Click a row to see why it has that status, any errors it logged, and how fast it was allowed to crawl the site.</p>
+      <div class="scroll-x">
+        <table id="spider-table">
+          <thead><tr>
+            <th>Source</th><th>Status</th><th class="num">Records</th>
+            <th class="num">Change</th><th class="num">Time</th><th class="num">Errors</th><th>Site</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>How long each crawl takes</h2>
+      <p class="hint">Whole-workflow duration for the last runs, from the GitHub Actions history. A run that fails is marked in red.</p>
+      <div class="chart" id="chart-duration"></div>
+      <div class="legend" id="duration-legend"></div>
+    </div>
+
+    <div class="card">
+      <h2>Politeness — how fast each website let us crawl</h2>
+      <p class="hint">Scrapy's AutoThrottle slows itself down for sites that respond slowly. Higher delay means the crawler is being gentler with that site.</p>
+      <div id="throttle"></div>
+    </div>
+  </section>
+
+  <!-- 2. DATA STATS -->
+  <section id="tab-data" class="tab hidden">
+    <div class="kpis" id="data-kpis"></div>
+    <div class="card">
+      <h2>Growth over time</h2>
+      <p class="hint">Left: how many records the collection holds after each crawl. Right: total size of everything kept in the repository, which keeps growing because every run is archived.</p>
+      <div class="charts-2">
+        <div><h3>Records in the collection</h3><div class="chart" id="chart-records"></div></div>
+        <div><h3>Repository size</h3><div class="chart" id="chart-size"></div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Records by source</h2>
+      <p class="hint">From the most recent file each spider produced.</p>
+      <div class="chart" id="chart-sources"></div>
+    </div>
+    <div class="card">
+      <h2>Coverage — how much of each source we have</h2>
+      <p class="hint">Only shown where a real total exists to measure against.</p>
+      <div id="coverage"></div>
+    </div>
+  </section>
+
+  <!-- 3. QUALITY -->
+  <section id="tab-quality" class="tab hidden">
+    <div class="card">
+      <h2>Random records, shown raw</h2>
+      <p class="hint">A fresh random handful from each source every crawl. Read a few: if a title, link and text do not belong together, something upstream is wrong.</p>
+      <div class="controls">
+        <div class="field">
+          <label for="q-source">Source</label>
+          <select id="q-source"></select>
+        </div>
+        <div class="field">
+          <label for="q-flagged">Show</label>
+          <select id="q-flagged">
+            <option value="all">All sampled records</option>
+            <option value="flagged">Only records with a warning</option>
+          </select>
+        </div>
+      </div>
+      <div id="quality-summary"></div>
+      <div id="samples"></div>
+    </div>
+  </section>
+
+  <!-- 4. BROWSE -->
+  <section id="tab-browse" class="tab hidden">
+    <div class="card">
+      <h2>Browse and search the collected records</h2>
+      <p class="hint">Records are loaded a page at a time, so nothing large is ever downloaded at once. Searching one source is much faster than searching all of them.</p>
+      <div class="controls">
+        <div class="field">
+          <label for="b-source">Source</label>
+          <select id="b-source"></select>
+        </div>
+        <div class="field">
+          <label for="b-query">Keyword (Tamil or English)</label>
+          <input type="text" id="b-query" placeholder="e.g. சங்கம், Chola, temple">
+        </div>
+        <div class="field">
+          <label for="b-from">First collected from</label>
+          <input type="date" id="b-from">
+        </div>
+        <div class="field">
+          <label for="b-to">to</label>
+          <input type="date" id="b-to">
+        </div>
+        <button class="primary" id="b-go" type="button">Search</button>
+        <label class="checkline"><input type="checkbox" id="b-flagged"> Only records with a warning</label>
+      </div>
+      <div id="browse-status" class="empty"></div>
+      <div id="browse-results"></div>
+      <div class="pager hidden" id="browse-pager">
+        <button class="ghost" id="b-prev" type="button">← Previous</button>
+        <span id="b-page"></span>
+        <button class="ghost" id="b-next" type="button">Next →</button>
+      </div>
+      <div id="browse-more"></div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
